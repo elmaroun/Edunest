@@ -52,14 +52,14 @@ The database file required to run the application is located at the following lo
 #### As a User:
 
 1. Go to the login page:  
-   **EduNest.rar -> common -> first-page.php**
+   **common -> first-page.php**
 
    This page allows users (teachers and students) to log in to their respective accounts.
 
 #### As an Administrator:
 
 1. Go to the login page:  
-   **EduNest.rar -> admin -> login-admin.php**
+   **admin -> login-admin.php**
 
    This page is for platform administration, providing advanced user and course management functionalities.
 
@@ -73,10 +73,9 @@ For a detailed demonstration of the application, please watch the video availabl
 #### User Accounts File:
 
 You can find the file containing user accounts at:  
-**EduNest.rar -> Emails & Passwords.xlsx**
+**Emails & Passwords.xlsx**
 
 This file contains login credentials for users registered on the platform.
 
 ---
 
-This Readme provides essential information to install, configure, and start the EduNest application, a comprehensive and user-friendly online learning platform.
