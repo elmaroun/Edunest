@@ -41,7 +41,7 @@ EduNest is an online learning platform designed to facilitate interaction betwee
 #### Database File:
 
 The database file required to run the application is located at the following location:  
-**EduNest.rar -> mysql - db -> edunest.sql**
+**mysql - db -> edunest.sql**
 
 #### Database Configuration:
 
