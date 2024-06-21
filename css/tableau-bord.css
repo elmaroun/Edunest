@@ -1,0 +1,86 @@
+body{
+    background-color: #f4f4f9;
+    /*overflow: hidden;*/
+    min-height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-blend-mode: overlay;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.center-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+}
+
+
+.form-containers {
+    max-width: 1000px;    
+    width:700px;
+    padding-right:60px;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-top:0px;
+    margin-top: 80px;
+    margin-bottom: 110px;
+    background-color: #fff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: auto;  
+    align-items: center;      
+}
+
+.title {
+    text-align: center;
+}
+
+.table-bord-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+    color: black;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.cours{
+    width:500px;
+    max-height: 400px;
+    min-height: 100px;
+    border: 2px solid rgb(131, 166, 183);
+    border-radius: 10px;
+    margin-top:50px;
+    padding-left:50px;
+
+    margin-left:60px;
+    margin-right: 60px;
+    position:relative;
+
+}
+
+.nom_cours{
+    text-align: center;
+    margin-right: 1cm;
+}
+
+.nombre{
+    margin-left: 1cm;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.titre{
+    margin-bottom: 0px;
+    margin-top:10
+    px;
+}
+
+
+

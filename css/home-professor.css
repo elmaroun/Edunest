@@ -1,0 +1,209 @@
+body {
+    background-color: #f4f4f9;
+    min-height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-blend-mode: overlay;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.button-modifier-profile{
+    height: 40px;
+    width: 110px;
+    margin:0;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    right:130px;
+    position:absolute;
+    margin-right: 10px;
+    top:30px;
+
+}
+
+.ajouter-cours {
+
+    height: 45px;
+    font-weight: bold;
+    color:white;
+    width: 190px; 
+    align-self: center;
+
+    margin-top: 130px;
+    margin-bottom: 0; 
+    cursor: pointer;
+
+    margin-left: 20%;
+    margin-right: 30%;
+
+    border: none;
+    background-color: rgb(102, 143, 163);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.tab-bord-cours {
+    height: 45px;
+    font-weight: bold;
+    color:white;
+    width: 190px; 
+    align-self: center;
+
+    margin-top: 130px;
+    margin-bottom: 0; 
+    cursor: pointer;
+
+    margin-left: 20%;
+
+    border: none;
+    position:absolute;
+    background-color: rgb(102, 143, 163);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: left;
+    left:220px;
+
+}
+
+.body-cours {
+    border: 10px solid  rgb(102, 143, 163);
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+    padding-top: 20px;
+    
+    border: none;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    border-radius: 8px;
+
+    margin-bottom: 10%;
+    padding-bottom: 60px;
+
+    min-width:14cm;
+
+}
+
+.box-cours {
+    border: 1px solid rgb(23, 21, 21);
+    padding: 1% 5%;
+    background-color:  rgb(102, 143, 163);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+    margin-left:14%;
+    border-radius: 8px;
+    position:relative;
+    padding-bottom:6%;
+    width:64%;
+    min-width:10cm;
+    border: none;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.nom-du-cours{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top:10px;
+    min-width:0px;
+    max-width:7cm;
+    color: #fff;
+}
+
+.mot-cle {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    bottom:15px;
+    position:absolute;
+}
+
+.button-contenu {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2%;
+    height: 35px;
+    width: 20%;
+    right: 20px;
+    position: absolute;
+    margin-left: 100%;
+    top: 10px;
+    color:rgb(0,0,0);
+    border: none;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Ajout pour supprimer le soulignement */
+    display: inline-block; /* Ajout pour conserver les propriétés de bloc */
+    text-align: center; /* Ajout pour centrer le texte */
+    line-height: 35px; /* Ajout pour centrer verticalement le texte */
+}
+
+.button-modifier{
+    font-family: 'Montserrat', sans-serif;
+    height: 35px;
+    width: 20%;
+    right: 20px;
+    position:absolute;
+    bottom:10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: #f4f4f9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Ajout pour supprimer le soulignement */
+    display: inline-block; /* Ajout pour conserver les propriétés de bloc */
+    text-align: center; /* Ajout pour centrer le texte */
+    line-height: 35px;
+}
+.button-bord{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2%;
+    height: 35px;
+    width: 20%;
+    right:160px;
+    position:absolute;
+    margin-left: 100%;
+    top:10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-question{
+    font-family: 'Montserrat', sans-serif;
+    height: 35px;
+    width: 20%;
+    right: 160px;
+    position:absolute;
+    bottom:10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.tite {
+
+    margin-bottom: 42px;
+}

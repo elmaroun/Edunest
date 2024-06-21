@@ -1,0 +1,22 @@
+
+.site-header {
+    background-color: rgb(102, 143, 163);
+    color: #FFFFFF; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin-bottom:100%;
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left:0px;
+    margin-left:2cm;
+}

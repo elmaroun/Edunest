@@ -1,0 +1,94 @@
+body{
+    background-color: #f4f4f9;
+    overflow: hidden;
+    min-height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-blend-mode: overlay;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43vh;
+    align-content: center;
+    margin: 21px;
+    background-color: #fff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: auto; 
+}
+
+.center-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 800px;
+}
+
+.centered-title {
+    margin: 6px 0; /* Adds space between the titles */
+    /*margin-bottom: 20px;*/
+}
+
+
+#tt {
+    position: absolute; 
+    top: calc(50% - 155px);
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin: 0;
+
+}
+
+.box {
+    width: 300px; 
+    height: 250px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    margin: 0 45px; 
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 15px auto;
+    margin-top: 23px;
+}
+
+.box span {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    
+}
+
+#professor a,#student a {
+    text-decoration: none; 
+}
+
+#professor, #student {
+    background-color: rgb(156, 189, 206); /* Color of the boxes */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#professor:hover, #student:hover {
+    background-color: rgb(169, 206, 224);
+}
+
+
